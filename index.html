@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Genius Consulting — Conseil en Stratégie, Management & Performance d'Entreprise</title>
+  <meta name="description"
+    content="Genius Consulting accompagne les dirigeants, PME et grands groupes dans leur stratégie de croissance, optimisation financière et transformation opérationnelle." />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,400&amp;display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="assets/script/scripts.js"></script>
+
+  <!-- Cdns & Styles -->
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="assets/css/genius.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-mendo-cream text-mendo-charcoal font-sans antialiased selection:bg-mendo-gold selection:text-white">
+  <!-- BEGIN: TopBar -->
+  <aside
+    class="bg-dark text-center justify-center items-center text-neutral-300 text-xs py-2.5 border-b border-neutral-800 tracking-wider">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-center items-center gap-2 ">
+      <!-- Contact details -->
+      <div class="flex items-center space-x-6">
+        <span class="flex items-center gap-2 hover:text-mendo-gold transition-colors">
+          <i class="fa-solid fa-phone text-white text-[11px]"></i> +243 810 000 000
+        </span>
+        <span class="hidden sm:flex items-center gap-2 hover:text-mendo-gold transition-colors">
+          <i class="fa-solid fa-envelope text-white text-[11px]"></i> contact@geniusconsulting.com
+        </span>
+        <span class="hidden md:flex items-center gap-2 hover:text-mendo-gold transition-colors">
+          <i class="fa-solid fa-phone text-white text-[11px]"></i> Kinshasa • RDC
+        </span>
+      </div>
+
+    </div>
+  </aside>
+  <!-- END: TopBar -->
+  <!-- BEGIN: MainHeader -->
+
+  <header
+    class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-mendo-sand/60 transition-all duration-300">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="flex items-center justify-between h-24">
+
+        <!-- Logo -->
+        <a class="flex items-center gap-3.5 group" href="#">
+
+          <div class="w-12 h-12 rounded-full flex items-center justify-center text-mendo-gold">
+            <img src="assets/img/logog.png" alt="Genius Consulting">
+          </div>
+
+          <div class="flex flex-col">
+            <span
+              class="text-xl font-bold tracking-tight text-mendo-charcoal group-hover:text-mendo-gold transition-colors">
+              Genius<span class="text-mendo-gold">.</span>
+            </span>
+
+            <span class="text-[9px] uppercase tracking-[0.25em] text-mendo-muted font-medium">
+              Consulting
+            </span>
+          </div>
+
+        </a>
+
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium tracking-wide text-mendo-charcoal">
+
+          <a class="text-mendo-gold font-semibold relative
+                 after:content-[''] after:absolute after:bottom-[-6px]
+                 after:left-0 after:w-full after:h-0.5
+                 after:bg-mendo-gold" href="#">
+            Accueil
+          </a>
+
+          <a class="hover:text-mendo-gold transition-colors" href="#about">
+            À propos
+          </a>
+
+          <a class="hover:text-mendo-gold transition-colors" href="#services">
+            Services
+          </a>
+
+          <a class="hover:text-mendo-gold transition-colors" href="#team">
+            Nos Experts
+          </a>
+
+        </nav>
+
+
+        <!-- Desktop CTA -->
+        <div class="hidden sm:flex items-center gap-4">
+
+          <a class="inline-flex items-center justify-center
+                 px-6 py-3
+                 rounded-full
+                 text-xs
+                 text-white bg-dark
+                 hover:bg-black
+                 transition-all duration-300" href="#assessment">
+            <span>Prendre Rendez-vous</span>
+
+            <i class="fa-solid fa-arrow-right ml-2 text-[11px]"></i>
+          </a>
+
+        </div>
+
+
+        <!-- Mobile Toggle -->
+        <div class="lg:hidden flex items-center">
+
+          <button id="mobileMenuButton" aria-label="Ouvrir le menu" aria-expanded="false" class="p-2 text-mendo-charcoal
+                 hover:text-mendo-gold
+                 focus:outline-none
+                 transition-colors" type="button">
+
+            <i id="menuIcon" class="fa-solid fa-bars-staggered text-2xl transition-transform duration-300"></i>
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- ========================================= -->
+    <!-- MOBILE MENU -->
+    <!-- ========================================= -->
+
+    <div id="mobileMenu" class="lg:hidden
+           absolute left-0 top-full
+           w-full
+           bg-white
+           border-t border-mendo-sand/50
+           shadow-xl
+           origin-left
+           transform scale-x-0 opacity-0
+           pointer-events-none
+           transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]">
+
+      <nav class="px-6 py-7">
+
+        <div class="flex flex-col">
+
+          <!-- Accueil -->
+          <a href="#" class="mobile-link group py-4
+                 border-b border-neutral-100
+                 text-sm font-semibold
+                 text-mendo-gold
+                 flex items-center justify-between">
+            <span>Accueil</span>
+
+            <i class="fa-solid fa-arrow-right text-xs
+                    opacity-0 -translate-x-2
+                    group-hover:opacity-100
+                    group-hover:translate-x-0
+                    transition-all duration-300"></i>
+          </a>
+
+
+          <!-- À propos -->
+          <a href="#about" class="mobile-link group py-4
+                 border-b border-neutral-100
+                 text-sm font-medium
+                 text-mendo-charcoal
+                 hover:text-mendo-gold
+                 flex items-center justify-between
+                 transition-colors">
+            <span>À propos</span>
+
+            <i class="fa-solid fa-arrow-right text-xs
+                    opacity-0 -translate-x-2
+                    group-hover:opacity-100
+                    group-hover:translate-x-0
+                    transition-all duration-300"></i>
+          </a>
+
+
+          <!-- Expertises -->
+          <a href="#services" class="mobile-link group py-4
+                 border-b border-neutral-100
+                 text-sm font-medium
+                 text-mendo-charcoal
+                 hover:text-mendo-gold
+                 flex items-center justify-between
+                 transition-colors">
+            <span>Nos Expertises</span>
+
+            <i class="fa-solid fa-arrow-right text-xs
+                    opacity-0 -translate-x-2
+                    group-hover:opacity-100
+                    group-hover:translate-x-0
+                    transition-all duration-300"></i>
+          </a>
+
+
+          <!-- Experts -->
+          <a href="#team" class="mobile-link group py-4
+                 border-b border-neutral-100
+                 text-sm font-medium
+                 text-mendo-charcoal
+                 hover:text-mendo-gold
+                 flex items-center justify-between
+                 transition-colors">
+            <span>Nos Experts</span>
+
+            <i class="fa-solid fa-arrow-right text-xs
+                    opacity-0 -translate-x-2
+                    group-hover:opacity-100
+                    group-hover:translate-x-0
+                    transition-all duration-300"></i>
+          </a>
+
+          <i class="fa-solid fa-arrow-right text-xs
+                    opacity-0 -translate-x-2
+                    group-hover:opacity-100
+                    group-hover:translate-x-0
+                    transition-all duration-300"></i>
+          </a>
+
+
+          <!-- Contact -->
+          <a href="#contact" class="mobile-link group py-4
+                 text-sm font-medium
+                 text-mendo-charcoal
+                 hover:text-mendo-gold
+                 flex items-center justify-between
+                 transition-colors">
+            <span>Contact</span>
+
+            <i class="fa-solid fa-arrow-right text-xs
+                    opacity-0 -translate-x-2
+                    group-hover:opacity-100
+                    group-hover:translate-x-0
+                    transition-all duration-300"></i>
+          </a>
+
+
+          <!-- CTA -->
+          <a href="#assessment" class="mobile-link mt-6
+                 flex items-center justify-center
+                 gap-3
+                 px-6 py-4
+                 bg-mendo-gold
+                 text-white
+                 text-xs font-semibold
+                 uppercase tracking-widest
+                 hover:bg-mendo-gold-dark
+                 transition-colors">
+            Prendre Rendez-vous
+
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- BEGIN: HeroSection -->
+  <section class="hero-section">
+
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="hero-slide">
+            <img src="assets/img/slide007.jpeg" alt="Genius Consulting">
+
+            <div class="hero-overlay"></div>
+
+            <!-- Content -->
+            <div class="hero-content">
+
+              <h1>
+                Accélérez votre<br>
+                croissance
+              </h1>
+
+              <p>
+                Nous guidons les dirigeants et organisations dans la
+                prise de décisions stratégiques pour générer une
+                performance durable.
+              </p>
+
+              <a class="inline-flex mt-6 items-center justify-center
+                 px-6 py-3
+                 rounded-full
+                 text-xs
+                 text-white bg-mendo-gold
+                 hover:bg-mendo-gold
+                 transition-all duration-300" href="#assessment">
+                <span>Prendre Rendez-vous</span>
+
+                <i class="fa-solid fa-arrow-right ml-2 text-[11px]"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+           SLIDE 2
+      ================================================== -->
+
+        <div class="carousel-item">
+
+          <div class="hero-slide">
+
+            <img src="assets/img/slide008.jpeg" alt="Genius Consulting">
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+
+              <h1>
+                Une vision<br>
+                stratégique
+              </h1>
+
+              <p>
+                Du diagnostic organisationnel au déploiement
+                opérationnel, nos experts vous accompagnent pour
+                transformer vos enjeux en leviers.
+              </p>
+
+              <a class="inline-flex mt-6 items-center justify-center
+                 px-6 py-3
+                 rounded-full
+                 text-xs
+                 text-white bg-mendo-gold
+                 hover:bg-mendo-gold
+                 transition-all duration-300" href="#assessment">
+                <span>Prendre Rendez-vous</span>
+
+                <i class="fa-solid fa-arrow-right ml-2 text-[11px]"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+           SLIDE 3
+      ================================================== -->
+
+        <div class="carousel-item">
+
+          <div class="hero-slide">
+
+            <img src="assets/img/slide009.jpeg" alt="Genius Consulting">
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+              <h1>
+                Devenez plus<br>
+                compétitif
+              </h1>
+
+              <p>
+                Optimisez vos marges, modernisez vos processus et
+                développez de nouveaux marchés avec un partenaire
+                de conseil à vos côtés.
+              </p>
+
+              <a class="inline-flex mt-6 items-center justify-center
+                 px-6 py-3
+                 rounded-full
+                 text-xs
+                 text-white bg-mendo-gold
+                 hover:bg-mendo-gold
+                 transition-all duration-300" href="#assessment">
+                <span>Prendre Rendez-vous</span>
+
+                <i class="fa-solid fa-arrow-right ml-2 text-[11px]"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- END: StatsHighlightBar -->
+  <!-- BEGIN: AboutSection -->
+  <section class="about-section" id="about">
+
+    <div class="about-container">
+
+      <!-- =========================
+         COLONNE IMAGES
+    ========================== -->
+      <div class="about-images">
+
+        <!-- Décoration carrée -->
+        <div class="about-square"></div>
+
+        <div class="images-wrapper">
+
+          <!-- Image principale -->
+          <div class="image-main">
+            <img src="assets/img/about1.jpeg" alt="Consultants en stratégie Genius Consulting">
+          </div>
+
+          <!-- Deuxième image -->
+          <div class="image-secondary">
+            <img src="assets/img/about2.jpeg" alt="Conseil de direction et gouvernance d'entreprise">
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =========================
+         COLONNE TEXTE
+    ========================== -->
+      <div class="about-content">
+
+        <!-- Grand triangle -->
+        <div class="big-triangle"></div>
+
+        <div class="content-inner">
+
+          <div class="inline-block container text-center">
+            <h1 class="uppercase container font-semibold text-3xl text-mendo-gold block mt-1"> A propos de nous
+            </h1>
+            <div class="h-0.5 container w-12 bg-mendo-gold mt-2 mx-auto"></div>
+          </div>
+
+          <p>
+            Fondé avec une exigence absolue de rigueur
+            méthodologique et d’impact durable,
+            <strong>Genius Consulting</strong> est un cabinet
+            de référence spécialisé dans le conseil de direction,
+            l’optimisation financière et le développement
+            des entreprises.
+          </p>
+
+          <a href="about.html" class="inline-flex mt-6 items-center justify-center
+                 px-6 py-3
+                 rounded-full
+                 text-xs
+                 text-white bg-dark
+                 hover:bg-black
+                 transition-all duration-300" href="#assessment">
+            <span>En savoir plus</span>
+
+            <i class="fa-solid fa-arrow-right ml-2 text-[11px]"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- END: AboutSection -->
+
+
+  <!-- BEGIN: ServicesSection -->
+
+
+  <section class="py-24 items-center container relative overflow-hidden" id="services">
+
+    <!-- =====================================================
+       TRIANGLE DÉCORATIF GAUCHE
+  ====================================================== -->
+    <div class="services-triangle"></div>
+
+
+    <!-- =====================================================
+       TITRE DE LA SECTION
+  ====================================================== -->
+    <div class="inline-block container text-center relative z-10">
+
+      <h1 class="uppercase container font-semibold text-3xl text-mendo-gold block mt-1">
+        Nos Domaines
+      </h1>
+
+      <div class="h-0.5 mb-8 container w-12 bg-mendo-gold mt-2 mx-auto"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+       SERVICES
+  ====================================================== -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 relative z-10">
+
+      <!-- Services Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-3xl mx-auto">
+
+
+        <!-- =================================================
+           SERVICE 1 — STRATÉGIE
+      ================================================== -->
+        <div class="group bg-mendo-cream  border border-mendo-sand/80
+                  hover:border-mendo-gold transition-all duration-300
+                  overflow-hidden flex flex-col justify-between">
+
+          <div>
+
+            <!-- Image -->
+            <div class="relative h-80 overflow-hidden">
+
+              <img src="assets/img/slide007.jpeg" alt="Conseil en stratégie et croissance d'entreprise" class="w-full h-full object-cover
+                     group-hover:scale-105 transition-transform duration-500" />
+
+              <!-- OVERLAY -->
+              <div class="absolute inset-0 bg-black/45
+                        group-hover:bg-mendo-gold/55
+                        transition-all duration-300">
+              </div>
+
+              <!-- ICÔNE BUSINESS -->
+              <div class="absolute inset-0 flex items-center justify-center">
+
+                <div class="relative z-10
+                          w-12 h-12 rounded-full
+                           
+                         
+                          flex items-center justify-center
+                          group-hover:scale-110
+                          transition-transform duration-300">
+
+                  <!-- Icône business -->
+                  <span class="text-white text-4xl">
+                    <i class="fa fa-chart-column" style="color: white; font-size: 40px; "></i>
+                  </span>
+
+                </div>
+
+              </div>
+
+              <!-- LABEL -->
+              <div class="absolute top-5 left-5 z-10
+                        bg-mendo-gold text-white
+                        text-[10px] font-bold uppercase tracking-wider
+                        px-3 py-1.5">
+
+                Stratégie &amp; Croissance
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+           SERVICE 2 — FINANCE
+      ================================================== -->
+        <div class="group bg-mendo-cream  border border-mendo-sand/80
+                  hover:border-mendo-gold transition-all duration-300
+                  overflow-hidden flex flex-col justify-between">
+
+          <div>
+
+            <!-- Image -->
+            <div class="relative h-80 overflow-hidden">
+
+              <img src="assets/img/slide008.jpeg" alt="Performance financière et restructuration" class="w-full h-full object-cover
+                     group-hover:scale-105 transition-transform duration-500" />
+
+              <!-- OVERLAY -->
+              <div class="absolute inset-0 bg-black/45
+                        group-hover:bg-mendo-gold/55
+                        transition-all duration-300">
+              </div>
+
+              <!-- ICÔNE BUSINESS -->
+              <div class="absolute inset-0 flex items-center justify-center">
+
+                <div class="relative z-10
+                          w-12 h-12 rounded-full
+          
+                          
+                          flex items-center justify-center
+                          group-hover:scale-110
+                          transition-transform duration-300">
+
+                  <!-- Icône finance -->
+                  <span class="text-white text-4xl">
+                    <i class="fa fa-chart-line" style="color: white; font-size: 40px; "></i>
+                  </span>
+
+                </div>
+
+              </div>
+
+              <!-- LABEL -->
+              <div class="absolute top-5 left-5 z-10
+                        bg-mendo-gold text-white
+                        text-[10px] font-bold uppercase tracking-wider
+                        px-3 py-1.5">
+
+                Finance &amp; Audit
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- END: ServicesSection -->
+  <!-- BEGIN: FreeAssessmentPromoBanner -->
+
+  <!-- =====================================================
+     CONTENEUR EXTÉRIEUR
+====================================================== -->
+  <section class="w-full px-5 md:px-12 lg:px-20 xl:px-28" id="assessment">
+
+    <!-- =====================================================
+       BLOC PRINCIPAL
+  ====================================================== -->
+    <div class="relative py-20 text-white overflow-hidden">
+
+      <!-- =====================================================
+         VIDEO BACKGROUND
+    ====================================================== -->
+      <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline preload="auto">
+        <source src="assets/video/assessment-bg.mp4" type="video/mp4">
+      </video>
+
+      <!-- =====================================================
+         OVERLAY DORÉ
+    ====================================================== -->
+      <div class="absolute inset-0 bg-mendo-gold/80"></div>
+
+      <!-- =====================================================
+         OVERLAY SOMBRE
+    ====================================================== -->
+      <div class="absolute inset-0 bg-black/20"></div>
+
+      <!-- =====================================================
+         DECORATIVE BACKGROUND ELEMENT
+    ====================================================== -->
+      <div class="absolute -right-16 -bottom-16 opacity-5 pointer-events-none z-[1]">
+        <i class="fa-solid fa-chart-line text-[280px]"></i>
+      </div>
+
+      <!-- =====================================================
+         CONTENT
+    ====================================================== -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+          <!-- =================================================
+             TEXT
+        ================================================== -->
+          <div class="lg:col-span-8 space-y-4 py-8">
+
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white leading-tight">
+              RÉSERVEZ UNE SESSION <br>
+              CONSULTATIVE
+            </h2>
+
+          </div>
+
+          <!-- =================================================
+             BUTTONS
+        ================================================== -->
+          <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4">
+
+            <!-- <a class="
+              w-full rounded-full py-3 px-5
+              bg-dark hover:bg-black
+              text-white
+              text-xs uppercase tracking-widest font-semibold
+              text-center
+              transition-all shadow-xl block
+            " href="#contact">
+              Demander un Diagnostic
+            </a> -->
+
+            <a class="
+              w-full rounded-full py-3 px-5
+              bg-white hover:bg-neutral-100
+              text-mendo-charcoal
+              text-xs uppercase tracking-widest font-bold
+              text-center
+              transition-all shadow-md
+              flex items-center justify-center gap-2
+            " href="#contact">
+              <i class="fa-solid fa-calendar-check text-mendo-gold"></i>
+              Rendez-vous
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- END: FreeAssessmentPromoBanner -->
+  <!-- BEGIN: TeamSection -->
+
+  <section id="team" class="py-20 sm:py-24 bg-mendo-cream overflow-hidden">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+
+      <!-- Titre -->
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold text-mendo-gold">EXPERTS</h2>
+        <div class="w-12 h-0.5 bg-mendo-gold mx-auto"></div>
+      </div>
+
+      <div class="relative px-1 sm:px-3">
+
+        <div id="teamCarousel" class="flex gap-5 sm:gap-6 lg:gap-7 overflow-x-auto scroll-smooth
+                  snap-x snap-mandatory scrollbar-hide pt-4 pb-6">
+
+          <!-- CARD 1 -->
+          <article class="team-card group flex-shrink-0 w-[82%] sm:w-[45%] lg:w-[31%] snap-start">
+            <div class="relative pt-4">
+
+              <img src="assets/img/membre4.png" alt="Patrick Mukendi" loading="lazy" class="relative z-10 mx-auto h-[340px] sm:h-[380px] w-auto max-w-full
+                        object-contain object-bottom bg-transparent
+                        transition-transform duration-500 group-hover:-translate-y-2">
+
+              <!-- Plaque d'informations -->
+              <div class="relative z-20 -mt-14 mx-2 rounded-2xl bg-white/90 backdrop-blur
+                        border border-black/5 px-5 py-5 text-center">
+                <span class="inline-block bg-dark text-white text-[10px] sm:text-xs font-bold
+                           uppercase tracking-wider px-3 py-1.5 rounded-full">
+                  Directeur Associé
+                </span>
+                <h3 class="mt-3 text-base sm:text-lg font-bold text-mendo-charcoal">Patrick Mukendi</h3>
+
+
+                <div class="mt-4 flex justify-center gap-2">
+                  <a href="#" aria-label="LinkedIn de Patrick Mukendi" class="w-9 h-9 rounded-full border border-mendo-gold/40 text-mendo-charcoal
+                          flex items-center justify-center hover:bg-mendo-gold hover:text-white transition-colors">
+                    <i class="fa-brands fa-linkedin-in text-xs"></i>
+                  </a>
+                  <a href="mailto:" aria-label="Envoyer un email à Patrick Mukendi" class="w-9 h-9 rounded-full border border-mendo-gold/40 text-mendo-charcoal
+                          flex items-center justify-center hover:bg-mendo-gold hover:text-white transition-colors">
+                    <i class="fa-regular fa-envelope text-xs"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="team-card group flex-shrink-0 w-[82%] sm:w-[45%] lg:w-[31%] snap-start">
+            <div class="relative pt-6">
+              <img src="assets/img/membre1.png" alt="Patriote Gbede" loading="lazy" class="relative z-10 mx-auto h-[340px] sm:h-[380px] w-auto max-w-full
+                        object-contain object-bottom bg-transparent
+                        transition-transform duration-500 group-hover:-translate-y-2">
+
+              <div class="relative z-20 -mt-14 mx-2 rounded-2xl bg-white/90 backdrop-blur
+                        border border-black/5 px-5 py-5 text-center">
+                <span class="inline-block bg-dark text-white text-[10px] sm:text-xs font-bold
+                           uppercase tracking-wider px-3 py-1.5 rounded-full">
+                  Managing Partner
+                </span>
+                <h3 class="mt-3 text-base sm:text-lg font-bold text-mendo-charcoal">Patriote Gbede</h3>
+
+
+                <div class="mt-4 flex justify-center gap-2">
+                  <a href="#" aria-label="LinkedIn de Patriote Gbede" class="w-9 h-9 rounded-full border border-mendo-gold/40 text-mendo-charcoal
+                          flex items-center justify-center hover:bg-mendo-gold hover:text-white transition-colors">
+                    <i class="fa-brands fa-linkedin-in text-xs"></i>
+                  </a>
+                  <a href="mailto:" aria-label="Envoyer un email à Patriote Gbede" class="w-9 h-9 rounded-full border border-mendo-gold/40 text-mendo-charcoal
+                          flex items-center justify-center hover:bg-mendo-gold hover:text-white transition-colors">
+                    <i class="fa-regular fa-envelope text-xs"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="team-card group flex-shrink-0 w-[82%] sm:w-[45%] lg:w-[31%] snap-start">
+            <div class="relative pt-6">
+              <img src="assets/img/membre2.png" alt="Merveille Ilunga" loading="lazy" class="relative z-10 mx-auto h-[340px] sm:h-[380px] w-auto max-w-full
+                        object-contain object-bottom bg-transparent
+                        transition-transform duration-500 group-hover:-translate-y-2">
+
+              <div class="relative z-20 -mt-14 mx-2 rounded-2xl bg-white/90 backdrop-blur
+                        border border-black/5 px-5 py-5 text-center">
+                <span class="inline-block bg-dark text-white text-[10px] sm:text-xs font-bold
+                           uppercase tracking-wider px-3 py-1.5 rounded-full">
+                  Directrice Associée
+                </span>
+                <h3 class="mt-3 text-base sm:text-lg font-bold text-mendo-charcoal">Merveille Ilunga</h3>
+
+
+                <div class="mt-4 flex justify-center gap-2">
+                  <a href="#" aria-label="LinkedIn de Merveille Ilunga" class="w-9 h-9 rounded-full border border-mendo-gold/40 text-mendo-charcoal
+                          flex items-center justify-center hover:bg-mendo-gold hover:text-white transition-colors">
+                    <i class="fa-brands fa-linkedin-in text-xs"></i>
+                  </a>
+                  <a href="mailto:" aria-label="Envoyer un email à Merveille Ilunga" class="w-9 h-9 rounded-full border border-mendo-gold/40 text-mendo-charcoal
+                          flex items-center justify-center hover:bg-mendo-gold hover:text-white transition-colors">
+                    <i class="fa-regular fa-envelope text-xs"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="team-card group flex-shrink-0 w-[82%] sm:w-[45%] lg:w-[31%] snap-start">
+            <div class="relative pt-6">
+              <img src="assets/img/membre3.png" alt="Exaucé Tamusi" loading="lazy" class="relative z-10 mx-auto h-[340px] sm:h-[380px] w-auto max-w-full
+                        object-contain object-bottom bg-transparent
+                        transition-transform duration-500 group-hover:-translate-y-2">
+
+              <div class="relative z-20 -mt-14 mx-2 rounded-2xl bg-white/90 backdrop-blur
+                        border border-black/5 px-5 py-5 text-center">
+                <span class="inline-block bg-dark text-white text-[10px] sm:text-xs font-bold
+                           uppercase tracking-wider px-3 py-1.5 rounded-full">
+                  Directeur Conseil
+                </span>
+                <h3 class="mt-3 text-base sm:text-lg font-bold text-mendo-charcoal">Exaucé Tamusi</h3>
+
+                <div class="mt-4 flex justify-center gap-2">
+                  <a href="#" aria-label="LinkedIn d'Exaucé Tamusi" class="w-9 h-9 rounded-full border border-mendo-gold/40 text-mendo-charcoal
+                          flex items-center justify-center hover:bg-mendo-gold hover:text-white transition-colors">
+                    <i class="fa-brands fa-linkedin-in text-xs"></i>
+                  </a>
+                  <a href="mailto:" aria-label="Envoyer un email à Exaucé Tamusi" class="w-9 h-9 rounded-full border border-mendo-gold/40 text-mendo-charcoal
+                          flex items-center justify-center hover:bg-mendo-gold hover:text-white transition-colors">
+                    <i class="fa-regular fa-envelope text-xs"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Navigation (inchangée) -->
+        <div class="flex items-center justify-center gap-4 mt-6">
+          <button type="button" onclick="scrollTeam(-1)" aria-label="Membres précédents" class="w-11 h-11 rounded-full border border-mendo-gold/30 text-mendo-charcoal bg-white
+                       flex items-center justify-center transition-colors">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button type="button" onclick="scrollTeam(1)" aria-label="Membres suivants" class="w-11 h-11 rounded-full border border-mendo-gold/30 text-mendo-charcoal bg-white
+                       flex items-center justify-center transition-colors">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Faq -->
+  <section class="sec container mb-12" id="faq">
+
+    <div class="text-center mb-12 sm:mb-16">
+      <h2 class="text-3xl sm:text-4xl font-bold text-mendo-gold">FAQ</h2>
+      <div class="w-12 h-0.5 bg-mendo-gold mx-auto"></div>
+    </div>
+    <div class="wrap">
+      <div class="faq">
+        <details class="rv">
+          <summary>Qui peut faire appel à Genius Consulting ?</summary>
+          <p>Entreprises, organisations privées, institutions publiques, associations et individus structurés qui
+            souhaitent clarifier leur stratégie et la mettre en œuvre.</p>
+        </details>
+        <details class="rv">
+          <summary>Quels sont vos domaines d’intervention ?</summary>
+          <p>Quatre domaines : psychologique et entrepreneurial ; politique, diplomatique et administratif ;
+            environnemental et social ; socio-culturel et artistique.</p>
+        </details>
+        <details class="rv">
+          <summary>Comment se déroule une première collaboration ?</summary>
+          <p>Tout commence par un rendez-vous de diagnostic. Nous cernons vos enjeux, puis nous vous proposons une
+            approche et une feuille de route adaptées.</p>
+        </details>
+        <details class="rv">
+          <summary>Où intervenez-vous ?</summary>
+          <p>Nous sommes basés à Kinshasa (Gombe, RDC) et intervenons sur l’ensemble du territoire congolais, ainsi qu’à
+            distance selon les missions.</p>
+        </details>
+        <details class="rv">
+          <summary>Comment prendre rendez-vous ?</summary>
+          <p>Utilisez le formulaire de contact ci-dessous, écrivez-nous à contact@geniusconsulting.com ou appelez-nous
+            au +243 810 000 000.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- END: TeamSection -->
+
+  <section class="bg-mendo-cream py-12" id="contact">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+
+      <h2 class="text-3xl sm:text-4xl text-mendo-gold font-bold mt-2">
+        CONTACT
+      </h2>
+      <div class="w-12 h-0.5 bg-mendo-gold mx-auto mt-3"></div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="bg-white rounded-2xl overflow-hidden
+                border border-mendo-sand">
+
+        <div class="grid grid-cols-1 lg:grid-cols-12">
+
+          <div class="lg:col-span-5 relative min-h-[500px]">
+
+            <!-- Google Maps -->
+            <iframe
+              src="https://www.google.com/maps?q=Kinshasa,%20Gombe,%20Democratic%20Republic%20of%20the%20Congo&output=embed"
+              class="absolute inset-0 w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Genius Consulting Kinshasa">
+            </iframe>
+
+
+            <!-- Subtle overlay -->
+            <div class="absolute inset-0
+                      bg-gradient-to-t from-black/60
+                      via-transparent to-transparent
+                      pointer-events-none">
+            </div>
+
+          </div>
+
+          <div class="lg:col-span-7 p-8 sm:p-10 lg:p-12">
+
+            <form action="#" method="POST" class="space-y-5">
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+
+                <!-- First Name -->
+                <div>
+
+                  <input id="first_name" name="first_name" type="text" placeholder="Prenom" required class="w-full bg-mendo-cream
+                         border border-mendo-sand
+                         rounded-2xl
+                         px-4 py-3.5
+                         text-sm text-mendo-charcoal
+                         placeholder:text-mendo-muted/50
+                         focus:outline-none
+                         focus:border-mendo-gold
+                         focus:ring-2
+                         focus:ring-mendo-gold/10
+                         transition">
+
+                </div>
+
+
+                <!-- Last Name -->
+                <div>
+
+                  <input id="last_name" name="last_name" type="text" placeholder="Nom" required class="w-full bg-mendo-cream
+                         border border-mendo-sand
+                         rounded-2xl
+                         px-4 py-3.5
+                         text-sm text-mendo-charcoal
+                         placeholder:text-mendo-muted/50
+                         focus:outline-none
+                         focus:border-mendo-gold
+                         focus:ring-2
+                         focus:ring-mendo-gold/10
+                         transition">
+
+                </div>
+
+              </div>
+
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+
+                <!-- Email -->
+                <div>
+
+
+
+                  <input id="email" name="email" type="email" placeholder="geniusconsulting@gmail.com" required class="w-full bg-mendo-cream
+                         border border-mendo-sand
+                         rounded-2xl
+                         px-4 py-3.5
+                         text-sm
+                         focus:outline-none
+                         focus:border-mendo-gold
+                         focus:ring-2
+                         focus:ring-mendo-gold/10
+                         transition">
+
+                </div>
+
+
+                <!-- Phone -->
+                <div>
+
+
+                  <input id="phone" name="phone" type="tel" placeholder="+243 000 000 000" class="w-full bg-mendo-cream
+                         border border-mendo-sand
+                         rounded-2xl
+                         px-4 py-3.5
+                         text-sm
+                         focus:outline-none
+                         focus:border-mendo-gold
+                         focus:ring-2
+                         focus:ring-mendo-gold/10
+                         transition">
+
+                </div>
+
+              </div>
+
+              <div>
+
+
+                <input id="subject" name="subject" placeholder="Subjet" required class="w-full bg-mendo-cream
+                       border border-mendo-sand
+                       rounded-2xl
+                       px-4 py-3.5
+                       text-sm text-mendo-charcoal
+                       focus:outline-none
+                       focus:border-mendo-gold
+                       focus:ring-2
+                       focus:ring-mendo-gold/10
+                       transition" />
+
+              </div>
+
+
+              <div>
+
+
+
+                <textarea id="message" name="message" rows="5" required placeholder="Votre message" class="w-full rounded-2xl bg-mendo-cream
+                       border border-mendo-sand
+                       px-4 py-3.5
+                       text-sm text-mendo-charcoal
+
+                       resize-none
+                       focus:outline-none
+                       focus:border-mendo-gold
+                       focus:ring-2
+                       focus:ring-mendo-gold/10
+                       transition">
+              </textarea>
+
+              </div>
+
+              <button type="submit" class="group w-full
+                     flex items-center
+                     justify-center gap-3
+                     bg-dark
+                     hover:bg-mendo-gold-dark
+                     text-white
+                     rounded-full
+                     py-3 px-6
+                     text-[11px]
+                     uppercase
+                     tracking-[0.2em]
+                     font-semibold
+                     hover:-translate-y-0.5
+                     transition-all duration-300">
+
+                <span>Envoyer</span>
+
+
+              </button>
+
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- ===================================================== SCROLL TO TOP ====================================================== -->
+  <button id="scrollTopBtn" aria-label="Retour en haut"> <svg class="progress-ring" viewBox="0 0 100 100">
+      <circle class="progress-ring-bg" cx="50" cy="50" r="44" />
+      <circle id="progressCircle" class="progress-ring-progress" cx="50" cy="50" r="44" />
+    </svg> <i class="fa-solid fa-arrow-up"></i> </button>
+
+  <script> const scrollTopBtn = document.getElementById("scrollTopBtn"); const progressCircle = document.getElementById("progressCircle"); const circumference = 2 * Math.PI * 44; /* ===================================================== CALCUL DE LA PROGRESSION ====================================================== */ function updateScrollProgress() { const scrollTop = window.scrollY; const documentHeight = document.documentElement.scrollHeight - window.innerHeight; /* Pourcentage du scroll 0 = tout en haut 1 = tout en bas */ const progress = documentHeight > 0 ? scrollTop / documentHeight : 0; /* ================================================= AFFICHER LE BOUTON APRÈS QUELQUES PIXELS ================================================= */ if (scrollTop > 300) { scrollTopBtn.classList.add("show"); } else { scrollTopBtn.classList.remove("show"); } /* ================================================= ANIMATION DU CERCLE ================================================= */ const offset = circumference - (progress * circumference); progressCircle.style.strokeDashoffset = offset; } /* ===================================================== RETOUR EN HAUT ====================================================== */ scrollTopBtn.addEventListener("click", () => { window.scrollTo({ top: 0, behavior: "smooth" }); }); /* ===================================================== ÉCOUTER LE SCROLL ====================================================== */ window.addEventListener("scroll", updateScrollProgress, { passive: true }); /* Initialisation */ updateScrollProgress(); </script>
+
+
+  <!-- END: TestimonialsSection -->
+  <!-- BEGIN: ContactConsultationSection -->
+
+  <!-- END: ContactConsultationSection -->
+  <!-- BEGIN: MainFooter -->
+
+  <footer class="relative mt-8 text-white overflow-hidden">
+    <!-- ========================= IMAGE DE FOND ========================== --> <img src="assets/img/slide009.jpeg"
+      alt="" class="absolute inset-0 w-full h-full object-cover">
+    <!-- ========================= OVERLAY SOMBRE ========================== -->
+    <div class="absolute inset-0 bg-black/75"></div>
+    <!-- ========================= CONTENU ========================== -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10"> <!-- Réseaux sociaux centrés -->
+      <div class="py-10 flex items-center justify-center">
+        <div class="flex items-center justify-center gap-3"> <!-- LinkedIn --> <a href="#" aria-label="LinkedIn"
+            class="w-10 h-10 flex items-center justify-center border border-white/20 text-neutral-300 hover:text-mendo-gold hover:border-mendo-gold transition-all duration-300 rounded-full">
+            <i class="fa-brands fa-linkedin-in"></i> </a> <!-- Instagram --> <a href="#" aria-label="Instagram"
+            class="w-10 h-10 flex items-center justify-center border border-white/20 text-neutral-300 hover:text-mendo-gold hover:border-mendo-gold transition-all duration-300 rounded-full">
+            <i class="fa-brands fa-instagram"></i> </a> <!-- Facebook --> <a href="#" aria-label="Facebook"
+            class="w-10 h-10 flex items-center justify-center border border-white/20 text-neutral-300 hover:text-mendo-gold hover:border-mendo-gold transition-all duration-300 rounded-full">
+            <i class="fa-brands fa-facebook-f"></i> </a> <!-- WhatsApp --> <a href="#" aria-label="WhatsApp"
+            class="w-10 h-10 flex items-center justify-center border border-white/20 text-neutral-300 hover:text-mendo-gold hover:border-mendo-gold transition-all duration-300 rounded-full">
+            <i class="fa-brands fa-whatsapp"></i> </a> </div>
+      </div> <!-- Ligne -->
+      <div class="h-px bg-white/20"></div> <!-- Bas du footer -->
+      <div class="py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <p class="text-[11px] text-white/70"> © 2026 Tous droits réservés. </p>
+        <p class="text-[11px] text-mendo-gold"> Powered by <span class="text-white/80 font-medium"> XXX </span> </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- END: MainFooter -->
+
+
+  <!-- Script Js -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="assets/script/scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
